@@ -1,11 +1,14 @@
 $background-color: #16171c;
-$font-color:white;
+$font-color:black;
 
 html{
     background-color: $background-color;
     color: $font-color;
 }
 
+button{
+    cursor: pointer;
+}
 .guide{
     font-family: 'Press Start 2P', cursive;
     text-align: center;

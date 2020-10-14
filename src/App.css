@@ -1,6 +1,10 @@
 html {
   background-color: #16171c;
-  color: white;
+  color: black;
+}
+
+button {
+  cursor: pointer;
 }
 
 .guide {
