@@ -7,7 +7,7 @@ html{
 }
 
 .guide{
-    font-family: 'Trade Winds', cursive;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     color:black;
     background-color: #d9d4ce;
@@ -69,10 +69,9 @@ img:hover{
 }
 
 @keyframes grow{
-    0%   {width:7%; height: 7%}
-  25%  {width:9%; height: 9%}
-  50%  {width:11%; height: 11%}
-  75%  {width: 9%; height: 9%;}
-  90% {width:8%; height: 8%}
-  100% {width: 7%; height: 7%;}
+    0%   {width:5%; height: 5%}
+  25%  {width:7%; height: 7%}
+  50%  {width:8%; height: 8%}
+  75%  {width: 7%; height: 7%;}
+  100% {width: 5%; height: 5%;}
 }
