@@ -1,0 +1,78 @@
+$background-color: #16171c;
+$font-color:white;
+
+html{
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.guide{
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    color:black;
+    background-color: #d9d4ce;
+    margin-top: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.images{
+    display: inline;
+}
+
+img{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    
+}
+
+img:hover{
+    position: absolute;
+    width: 11%;
+    height: 11%;
+}
+
+#python{
+    margin-top: 5%;
+    margin-left: 80%;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#go{
+    margin-top: 10%;
+    margin-left: 20%;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#javascript{
+    margin-top: 18%;
+    margin-left: 45%;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#kotlin{
+    margin-top: 28%;
+    margin-left: 30%;
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes grow{
+    0%   {width:7%; height: 7%}
+  25%  {width:9%; height: 9%}
+  50%  {width:11%; height: 11%}
+  75%  {width: 9%; height: 9%;}
+  90% {width:8%; height: 8%}
+  100% {width: 7%; height: 7%;}
+}
